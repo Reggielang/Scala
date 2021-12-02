@@ -24,6 +24,8 @@ object Scala03_Collection3 {
 //    println(array.reduce((x:Int,y:Int)=>x+y))
 //    println(array.reduce((x,y)=>x+y))
     println(array.reduce(_+_))
+    println(array.reduceLeft(_ + _))//从左往右x,y加括号
+    println(array.reduceRight(_ + _))//从右往左x,y加括号
 
 
 
